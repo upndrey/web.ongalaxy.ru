@@ -3,6 +3,10 @@
 @import "libs";
 @import "_mixins/mix";
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: $default-font;
   overflow-x: hidden;
@@ -266,7 +270,7 @@ h1 {
   }
 
   .grid {
-    //left: 78%;
+    left: 78%;
     z-index: 1;
   }
 

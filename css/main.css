@@ -6061,6 +6061,9 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
+html {
+  overflow-x: hidden; }
+
 body {
   font-family: "HelveticaNeueCyr", sans-serif;
   overflow-x: hidden;
@@ -6239,6 +6242,7 @@ h1 {
     z-index: 2;
     position: relative; }
   .we .grid {
+    left: 78%;
     z-index: 1; }
   .we__galaxy {
     color: #0095ff;
