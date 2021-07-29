@@ -318,6 +318,12 @@ h1 {
   .container {
     z-index: 2;
     position: relative;
+
+    .parallax__ufo {
+      position: absolute;
+      right: 10px;
+      top: -50px;
+    }
   }
 
   .grid {
@@ -724,6 +730,12 @@ h1 {
 
   .container {
     max-width: 1210px;
+
+    .parallax__satellite {
+      position: absolute;
+      left: -10px;
+      top: -500px;
+    }
   }
 
   &__items {
@@ -961,6 +973,14 @@ h1 {
   background: radial-gradient(1504.82px at 50% 50%, #2c60e730 0%, rgba(0, 0, 0, 0) 29%);
   background-position: -408px;
 
+  .container {
+    .parallax__astronaut {
+      position: absolute;
+      right: 250px;
+      top: 250px;
+    }
+  }
+
   &__items {
     display: flex;
     flex-wrap: wrap;
@@ -1098,6 +1118,12 @@ h1 {
   .map {
     img {
       width: 100%;
+    }
+
+    .parallax__abduction {
+      position: absolute;
+      right: 430px;
+      top: 424px;
     }
   }
 }
