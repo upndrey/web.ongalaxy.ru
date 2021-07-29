@@ -540,7 +540,7 @@ h1 {
       font-size: 64px;
       position: relative;
       bottom: 75px;
-      font-family: inherit;
+      font-family: arial;
     }
 
     & > .left {
@@ -681,7 +681,6 @@ h1 {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 /* .slide-fade-leave-active до версии 2.1.8 */
-
 .slide-fade-enter,
 .slide-fade-leave-to {
   transform: translateY(20px) scale(0.8);
