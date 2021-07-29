@@ -244,12 +244,12 @@ h1 {
 
   &__second {
     width: 308px;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   &__third {
     width: 347px;
-    margin-top: 100px;
+    margin-top: 300px;
   }
 
   .container {
@@ -657,6 +657,7 @@ h1 {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 /* .slide-fade-leave-active до версии 2.1.8 */
+
 .slide-fade-enter,
 .slide-fade-leave-to {
   transform: translateY(20px) scale(0.8);
