@@ -46,6 +46,10 @@
   }
 
   .why {
+    container {
+      height: auto;
+    }
+
     &__items {
       flex-direction: column;
     }

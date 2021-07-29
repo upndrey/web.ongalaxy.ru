@@ -7005,6 +7005,8 @@ h1 {
     margin: 0; }
   .main-cosmonaut {
     display: none; }
+  .why container {
+    height: auto; }
   .why__items {
     flex-direction: column; }
   .why__first {
