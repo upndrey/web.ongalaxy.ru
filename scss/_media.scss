@@ -135,6 +135,10 @@
   .ads-logos {
     background: radial-gradient(794.82px at 50% 50%, #799efc57 0%, rgba(0, 0, 0, 0) 29%);
     background-position: 0;
+
+    &__item {
+      margin: 10px 25px;
+    }
   }
 
   .trust .trust__logos__logo {
