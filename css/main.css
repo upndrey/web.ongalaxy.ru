@@ -6212,7 +6212,8 @@ h1 {
   user-select: none; }
 
 .why {
-  padding-bottom: 500px;
+  padding-bottom: 450px;
+  margin-bottom: 300px;
   position: relative;
   background: url("../img/why/Rectangle.png"); }
   .why:before {
@@ -6222,7 +6223,7 @@ h1 {
     width: 100%;
     height: 600px;
     position: absolute;
-    bottom: 0; }
+    bottom: -40px; }
   .why__astronaut {
     position: absolute;
     left: 0;
