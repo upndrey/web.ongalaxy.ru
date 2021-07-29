@@ -7006,13 +7006,16 @@ h1 {
   .why__items {
     flex-direction: column; }
   .why__first {
-    width: 100%;
+    width: 350px;
+    max-width: 100%;
     margin-top: 100px; }
   .why__second {
-    width: 100%;
+    width: 350px;
+    max-width: 100%;
     margin-top: 100px; }
   .why__third {
-    width: 100%;
+    width: 350px;
+    max-width: 100%;
     margin-top: 100px; }
   .we {
     display: none; }
