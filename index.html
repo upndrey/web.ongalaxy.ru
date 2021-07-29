@@ -476,7 +476,7 @@
 
               <transition name="slide-fade">
 
-                <div class="stages__block" v-if="stage == 3">
+                <div class="stages__block" v-if="stage == 5">
                   <h3>Верстка</h3>
                   <p>Верстальщик конвертирует работу дизайнера непосредственно в сайт.</p>
                 </div>
@@ -492,7 +492,7 @@
 
               <transition name="slide-fade">
 
-                <div class="stages__block" v-if="stage == 5">
+                <div class="stages__block" v-if="stage == 3">
                   <h3>Подготовка прототипа</h3>
                   <p>Дизайнер создаёт схематичный прототип сайта, что происходит не без вашего участия. Вы приходите к общему пониманию со специалистом и в результате получаете то, что вам нужно.</p>
                 </div>
@@ -544,7 +544,7 @@
                 <span class="stage-item__num">03</span>
                 <span class="stage-item__title">Копирайтинг</span>
               </div>
-              <div class="stage-item stage-item-5" @mouseover="stage = 3" :class="{'active-stage' : stage == 3 }">
+              <div class="stage-item stage-item-5" @mouseover="stage = 5" :class="{'active-stage' : stage == 5 }">
                 <span class="stage-item__num">06</span>
                 <span class="stage-item__title">Верстка</span>
               </div>
@@ -552,7 +552,7 @@
                 <span class="stage-item__num">05</span>
                 <span class="stage-item__title">Дизайн</span>
               </div>
-              <div class="stage-item stage-item-3" @mouseover="stage = 5" :class="{'active-stage' : stage == 5 }">
+              <div class="stage-item stage-item-3" @mouseover="stage = 3" :class="{'active-stage' : stage == 3 }">
                 <span class="stage-item__num">04</span>
                 <span class="stage-item__title">Подготовка прототипа</span>
               </div>
