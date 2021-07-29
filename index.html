@@ -1026,14 +1026,14 @@
   <script src="js/scripts.min.js"></script>
   <script type="text/javascript">
     let ufoDom = document.querySelector(".parallax__ufo");
-    let ufoPos = ufoDom.getBoundingClientRect().top;
     let satelliteDom = document.querySelector(".parallax__satellite");
-    let satellitePos = satelliteDom.getBoundingClientRect().top;
     let astronautDom = document.querySelector(".parallax__astronaut");
-    let astronautPos = astronautDom.getBoundingClientRect().top;
     let abductionDom = document.querySelector(".parallax__abduction");
-    let abductionPos = abductionDom.getBoundingClientRect().top;
     document.addEventListener("scroll", function() {
+      let ufoPos = ufoDom.getBoundingClientRect().top;
+      let satellitePos = satelliteDom.getBoundingClientRect().top;
+      let astronautPos = astronautDom.getBoundingClientRect().top;
+      let abductionPos = abductionDom.getBoundingClientRect().top;
       console.log(ufoPos, document.documentElement.clientHeight);
       if (ufoPos < document.documentElement.clientHeight) {
         ufoDom.x -= 1 / 100;
