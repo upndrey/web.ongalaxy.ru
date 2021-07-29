@@ -6256,6 +6256,10 @@ h1 {
 .we {
   position: relative;
   padding-bottom: 100px; }
+  .we__astronaut {
+    position: absolute;
+    left: 0;
+    bottom: 0; }
   .we .container {
     z-index: 2;
     position: relative; }

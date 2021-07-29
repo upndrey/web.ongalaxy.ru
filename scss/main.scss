@@ -282,6 +282,19 @@ h1 {
 .we {
   position: relative;
   padding-bottom: 100px;
+  background: src("../img/we/Rectangle.png");
+
+  &:before {
+    content: '';
+    display: block;
+    background: src("../img/we/Ellipse.png");
+  }
+
+  &__astronaut {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
 
   .container {
     z-index: 2;
