@@ -6212,8 +6212,17 @@ h1 {
   user-select: none; }
 
 .why {
-  padding-bottom: 100px;
-  position: relative; }
+  padding-bottom: 500px;
+  position: relative;
+  background: src("../img/we/Rectangle.png"); }
+  .why:before {
+    content: '';
+    display: block;
+    background: src("../img/we/Ellipse.png"); }
+  .why__astronaut {
+    position: absolute;
+    left: 0;
+    bottom: 0; }
   .why h3 {
     font-weight: 550;
     font-size: 24px;
@@ -6255,16 +6264,7 @@ h1 {
 
 .we {
   position: relative;
-  padding-bottom: 100px;
-  background: src("../img/we/Rectangle.png"); }
-  .we:before {
-    content: '';
-    display: block;
-    background: src("../img/we/Ellipse.png"); }
-  .we__astronaut {
-    position: absolute;
-    left: 0;
-    bottom: 0; }
+  padding-bottom: 100px; }
   .we .container {
     z-index: 2;
     position: relative; }
