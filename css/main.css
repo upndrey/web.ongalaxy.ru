@@ -6263,7 +6263,9 @@ h1 {
   .why__items {
     display: flex;
     width: 100%;
-    justify-content: space-between; }
+    justify-content: space-between;
+    z-index: 9999;
+    position: relative; }
   .why__item {
     height: 95px;
     display: flex;
