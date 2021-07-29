@@ -1052,8 +1052,8 @@
       let abductionPos = abductionDom.getBoundingClientRect().top;
       if (ufoPos < document.documentElement.clientHeight && ufoPos > 0) {
         console.log(ufoCurrent);
-        ufoCurrent.top += 1 / 10;
-        ufoCurrent.right += 1 / 10;
+        ufoCurrent.top -= 1;
+        ufoCurrent.right += 1;
         ufoDom.style.top = ufoCurrent.top + "px";
         ufoDom.style.right = ufoCurrent.right + "px";
       }
