@@ -6777,6 +6777,11 @@ h1 {
     margin: 0 10px 60px 11px;
     position: relative;
     overflow: hidden; }
+    .team__item__info {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 13px; }
     .team__item__text {
       position: absolute;
       top: 0;
