@@ -231,14 +231,14 @@ h1 {
     height: 1500px;
     position: absolute;
     bottom: -845px;
-    z-index: 1000;
+    z-index: 10;
   }
 
   &__astronaut {
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: 9999;
+    z-index: 99;
     display: block;
   }
 
@@ -246,7 +246,7 @@ h1 {
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: 500;
+    z-index: 50;
     display: block;
   }
 
@@ -289,7 +289,7 @@ h1 {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    z-index: 9999;
+    z-index: 99;
     position: relative;
   }
 
@@ -712,6 +712,7 @@ h1 {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 /* .slide-fade-leave-active до версии 2.1.8 */
+
 .slide-fade-enter,
 .slide-fade-leave-to {
   transform: translateY(20px) scale(0.8);

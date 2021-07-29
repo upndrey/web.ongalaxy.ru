@@ -6224,18 +6224,18 @@ h1 {
     height: 1500px;
     position: absolute;
     bottom: -845px;
-    z-index: 1000; }
+    z-index: 10; }
   .why__astronaut {
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: 9999;
+    z-index: 99;
     display: block; }
   .why__grid {
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: 500;
+    z-index: 50;
     display: block; }
   .why h3 {
     font-weight: 550;
@@ -6264,7 +6264,7 @@ h1 {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    z-index: 9999;
+    z-index: 99;
     position: relative; }
   .why__item {
     height: 95px;
