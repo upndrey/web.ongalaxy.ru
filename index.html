@@ -943,8 +943,7 @@
         </div>
       </div>
       <div class="map">
-        <img class="parallax__abduction" src="./img/parallax/abduction.svg" alt="">
-        <img src="./img/map.jpg" alt="">
+        <img src="./img/contacts-bg.png" alt="">
       </div>
     </footer>
 
@@ -1040,17 +1039,11 @@
       top: 450,
       right: 350
     };
-    let abductionDom = document.querySelector(".parallax__abduction");
-    let abductionCurrent = {
-      top: 370,
-      right: 330
-    };
     let savedScroll = window.pageYOffset;
     document.addEventListener("scroll", function() {
       let ufoPos = ufoDom.getBoundingClientRect().top;
       let satellitePos = satelliteDom.getBoundingClientRect().top;
       let astronautPos = astronautDom.getBoundingClientRect().top;
-      let abductionPos = abductionDom.getBoundingClientRect().top;
       if (ufoPos < document.documentElement.clientHeight && ufoPos > 0) {
         if (window.pageYOffset > savedScroll) {
           ufoCurrent.top -= 1;
@@ -1083,17 +1076,6 @@
         }
         astronautDom.style.top = astronautCurrent.top + "px";
         astronautDom.style.right = astronautCurrent.right + "px";
-      }
-      if (abductionPos < document.documentElement.clientHeight && abductionPos > 0) {
-        if (window.pageYOffset > savedScroll) {
-          abductionCurrent.top += 1;
-          abductionCurrent.right += 1;
-        } else {
-          abductionCurrent.top -= 1;
-          abductionCurrent.right -= 1;
-        }
-        abductionDom.style.top = abductionCurrent.top + "px";
-        abductionDom.style.right = abductionCurrent.right + "px";
       }
       savedScroll = window.pageYOffset;
     })
