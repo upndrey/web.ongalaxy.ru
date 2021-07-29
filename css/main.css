@@ -6165,7 +6165,7 @@ body {
   display: none; }
 
 .main {
-  position: relative;
+  position: static;
   padding-bottom: 200px;
   padding-top: 190px; }
   .main .container {
@@ -6195,7 +6195,7 @@ h1 {
   position: absolute;
   top: -120px;
   z-index: -1;
-  right: -140px;
+  right: 0;
   user-select: none; }
 
 .top-bg {
@@ -6239,7 +6239,6 @@ h1 {
     z-index: 2;
     position: relative; }
   .we .grid {
-    left: 78%;
     z-index: 1; }
   .we__galaxy {
     color: #0095ff;
