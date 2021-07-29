@@ -218,14 +218,19 @@ h1 {
 // why
 
 .why {
-  padding-bottom: 500px;
+  padding-bottom: 450px;
+  margin-bottom: 300px;
   position: relative;
   background: url("../img/why/Rectangle.png");
 
   &:before {
     content: '';
     display: block;
-    background: url("../img/why/Ellipse.png");
+    background: url("../img/why/Ellipse.png") no-repeat;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    bottom: -40;
   }
 
   &__astronaut {
