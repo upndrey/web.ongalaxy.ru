@@ -1045,6 +1045,7 @@
       top: 370,
       right: 330
     };
+    let savedScroll = window.pageYOffset;
     document.addEventListener("scroll", function() {
       let ufoPos = ufoDom.getBoundingClientRect().top;
       let satellitePos = satelliteDom.getBoundingClientRect().top;
@@ -1052,11 +1053,17 @@
       let abductionPos = abductionDom.getBoundingClientRect().top;
       if (ufoPos < document.documentElement.clientHeight && ufoPos > 0) {
         console.log(ufoCurrent);
-        ufoCurrent.top -= 1;
-        ufoCurrent.right += 1;
+        if (window.pageYOffset > savedScroll) {
+          ufoCurrent.top -= 1;
+          ufoCurrent.right += 1;
+        } else {
+          ufoCurrent.top += 1;
+          ufoCurrent.right -= 1;
+        }
         ufoDom.style.top = ufoCurrent.top + "px";
         ufoDom.style.right = ufoCurrent.right + "px";
       }
+      savedScroll = window.pageYOffset;
     })
   </script>
   <img src="./img/top.svg" alt="" class="top">
