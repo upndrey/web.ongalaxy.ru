@@ -6231,6 +6231,12 @@ h1 {
     bottom: 0;
     z-index: 9999;
     display: block; }
+  .why__grid {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    display: block; }
   .why h3 {
     font-weight: 550;
     font-size: 24px;

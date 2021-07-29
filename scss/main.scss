@@ -242,6 +242,14 @@ h1 {
     display: block;
   }
 
+  &__grid {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    display: block;
+  }
+
   h3 {
     font-weight: 550;
     font-size: 24px;
@@ -701,7 +709,6 @@ h1 {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 /* .slide-fade-leave-active до версии 2.1.8 */
-
 .slide-fade-enter,
 .slide-fade-leave-to {
   transform: translateY(20px) scale(0.8);
