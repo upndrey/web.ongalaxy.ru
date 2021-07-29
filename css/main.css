@@ -6169,7 +6169,7 @@ body {
   padding-bottom: 200px;
   padding-top: 190px; }
   .main .container {
-    position: static;
+    position: relative;
     max-width: 935px; }
   .main__subh {
     font-size: 25px;
@@ -6195,7 +6195,7 @@ h1 {
   position: absolute;
   top: -120px;
   z-index: -1;
-  right: 0;
+  right: -140px;
   user-select: none; }
 
 .top-bg {
