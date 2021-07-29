@@ -1026,18 +1026,36 @@
   <script src="js/scripts.min.js"></script>
   <script type="text/javascript">
     let ufoDom = document.querySelector(".parallax__ufo");
+    let ufoCurrent = {
+      top: -50,
+      right: 10
+    };
     let satelliteDom = document.querySelector(".parallax__satellite");
+    let satelliteCurrent = {
+      top: 1500,
+      left: -75
+    };
     let astronautDom = document.querySelector(".parallax__astronaut");
+    let astronautCurrent = {
+      top: 450,
+      right: 350
+    };
     let abductionDom = document.querySelector(".parallax__abduction");
+    let abductionCurrent = {
+      top: 370,
+      right: 330
+    };
     document.addEventListener("scroll", function() {
       let ufoPos = ufoDom.getBoundingClientRect().top;
       let satellitePos = satelliteDom.getBoundingClientRect().top;
       let astronautPos = astronautDom.getBoundingClientRect().top;
       let abductionPos = abductionDom.getBoundingClientRect().top;
-      console.log(ufoPos, document.documentElement.clientHeight);
-      if (ufoPos < document.documentElement.clientHeight) {
-        ufoDom.getBoundingClientRect().x -= 1 / 100;
-        ufoDom.getBoundingClientRect().y -= 1 / 100;
+      if (ufoPos < document.documentElement.clientHeight && ufoPos > 0) {
+        console.log(ufoCurrent);
+        ufoCurrent.top += 1 / 100;
+        ufoCurrent.right += 1 / 100;
+        ufoDom.style.top = ufoCurrent.top + "px";
+        ufoDom.style.right = ufoCurrent.right + "px";
       }
     })
   </script>
