@@ -7008,7 +7008,8 @@ h1 {
   .why container {
     height: auto; }
   .why__items {
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center; }
   .why__first {
     width: 350px;
     max-width: 100%;
