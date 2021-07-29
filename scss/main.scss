@@ -535,6 +535,21 @@ h1 {
     justify-content: space-between;
     width: 295px;
     max-width: 100%;
+
+    & > * {
+      font-size: 64px;
+      position: relative;
+      bottom: 75px;
+      font-family: inherit;
+    }
+
+    & > .left {
+      left: 10px;
+    }
+
+    & > .right {
+      right: 10px;
+    }
   }
 
   &__img {
@@ -666,6 +681,7 @@ h1 {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 /* .slide-fade-leave-active до версии 2.1.8 */
+
 .slide-fade-enter,
 .slide-fade-leave-to {
   transform: translateY(20px) scale(0.8);

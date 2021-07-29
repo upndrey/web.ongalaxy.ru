@@ -6485,6 +6485,15 @@ h1 {
     justify-content: space-between;
     width: 295px;
     max-width: 100%; }
+    .stages__arrows > * {
+      font-size: 64px;
+      position: relative;
+      bottom: 75px;
+      font-family: inherit; }
+    .stages__arrows > .left {
+      left: 10px; }
+    .stages__arrows > .right {
+      right: 10px; }
   .stages__img {
     margin-top: 55px; }
   .stages__grid {
