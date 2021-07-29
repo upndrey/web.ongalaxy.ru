@@ -1,5 +1,4 @@
-@import "vars";
-/*==========  Desktop First  ==========*/
+@import "vars"; /*==========  Desktop First  ==========*/
 // ≥1200px
 @include media-breakpoint-down(lg) {}
 // ≥992px
@@ -57,12 +56,12 @@
 
     &__second {
       width: 100%;
-      margin-top: 25px;
+      margin-top: 50px;
     }
 
     &__third {
       width: 100%;
-      margin-top: 25px;
+      margin-top: 50px;
     }
   }
 
