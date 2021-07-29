@@ -6995,6 +6995,10 @@ h1 {
     width: 100%; }
     .porfolio__item img {
       width: 100%; }
+  .porfolio__duo {
+    width: 100%; }
+    .porfolio__duo > * {
+      width: 100%; }
   .full-logo {
     display: none !important; }
   .mini-logo {

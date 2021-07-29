@@ -23,6 +23,16 @@
     }
   }
 
+  .porfolio {
+    &__duo {
+      width: 100%;
+
+      & > * {
+        width: 100%;
+      }
+    }
+  }
+
   .full-logo {
     display: none !important;
   }
