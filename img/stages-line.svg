@@ -1,0 +1,15 @@
+<svg width="709" height="469" viewBox="0 0 709 469" fill="none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+<path id="path" class="path" opacity="0.4" d="M3.008 2C3.008 2 544.975 2.00022 602.095 2C659.215 1.99978 706.927 40.6706 706.927 118.012C706.927 195.353 660.559 234.024 602.095 234.024C543.631 234.024 170.365 234.024 113.917 234.024C57.4686 234.024 2 272.694 2 350.036C2 427.377 58.1406 466.048 113.917 466.048C169.693 466.048 636.703 466.048 685.087 466.048" stroke="url(#paint0_linear)" stroke-width="4"/>
+<defs>
+<linearGradient id="paint0_linear" x1="100" y1="1.66575" x2="667.359" y2="338.872" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4DB5FF"/>
+<stop offset="1" stop-color="#0051BA"/>
+</linearGradient>
+
+</defs>
+<circle id="plane"  r="3" fill="#63e7f9"/>
+  <!-- Define the motion path animation -->
+  <animateMotion xlink:href="#plane" dur="14s" repeatCount="indefinite" rotate="auto">
+    <mpath xlink:href="#path"/>
+  </animateMotion> 
+</svg>

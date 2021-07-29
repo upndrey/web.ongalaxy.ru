@@ -1,0 +1,177 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+  .top {
+    display: none;
+  }
+  .top-bg {
+    right: 0;
+  }
+  .we {
+    display: none;
+  }
+  .porfolio__item {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .full-logo {
+    display: none !important;
+  }
+  .mini-logo {
+    display: inline-block !important;
+  }
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+  .header__phone {
+    //display: none;
+  }
+  .header__btn {
+    margin: 0;
+  }
+  .main-cosmonaut {
+    display: none;
+  }
+
+  .why {
+    &__items {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .we {
+    display: none;
+    h3 {
+    }
+  }
+  .services {
+    &__item {
+      margin: 0 auto;
+      margin-bottom: 48px;
+    }
+  }
+  .slider-bg-1,
+  .slider-bg-2 {
+    display: none;
+  }
+  .top-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .ads-logos,
+  .reviews,
+  .trust,
+  .porfolio,
+  .stages,
+  .services,
+  .we,
+  .why {
+    padding: 50px 0;
+  }
+  .main {
+    padding-bottom: 50px;
+  }
+  .ads-logos {
+    background: radial-gradient(
+      794.82px at 50% 50%,
+      #799efc57 0%,
+      rgba(0, 0, 0, 0) 29%
+    );
+    background-position: 0;
+    &__item {
+      width: 33%;
+    }
+  }
+  .trust .trust__logos__logo {
+    width: 30%;
+    padding: 10px;
+  }
+  h2 {
+    margin-bottom: 30px;
+    font-size: 33px;
+    line-height: 36px;
+  }
+  .team__items {
+    margin: 0 -15px;
+  }
+  .team__item {
+    width: 47%;
+    margin: 0 5px 60px 6px;
+  }
+  .footer__contacts {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .map {
+    overflow: hidden;
+    img {
+      width: auto !important;
+      height: 100%;
+    }
+  }
+  .footer {
+    position: relative;
+    .container {
+      position: initial;
+    }
+  }
+  .reviews {
+    display: none;
+  }
+  // .trust__logos{
+  //     align-items: center;
+  //     flex-direction: column;
+  // }
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+  h1 {
+    font-size: 29px;
+    line-height: 41px;
+  }
+  .main__subh {
+    margin-bottom: 30px;
+  }
+}
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+  .modal-dialog {
+    max-width: 485px;
+  }
+  .big-modal {
+    .modal-dialog {
+      max-width: 754px;
+    }
+  }
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+}
