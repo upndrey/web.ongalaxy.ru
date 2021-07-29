@@ -1034,8 +1034,8 @@
     let abductionDom = document.querySelector(".parallax__abduction");
     let abductionPos = abductionDom.getBoundingClientRect().top;
     document.addEventListener("scroll", function() {
-      console.log(ufoPos, window.clientHeight);
-      if (ufoPos < window.clientHeight) {
+      console.log(ufoPos, document.documentElement.clientHeight);
+      if (ufoPos < document.documentElement.clientHeight) {
         ufoDom.x -= 1 / 100;
         ufoDom.y -= 1 / 100;
       }
