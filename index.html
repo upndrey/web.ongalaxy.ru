@@ -526,8 +526,8 @@
 
 
             <div class="stages__arrows">
-              <div class="left" @mouseover="stage--">left</div>
-              <div class="right" @mouseover="stage++">right</div>
+              <div class="left" @mouseover="stage = stage - 1">left</div>
+              <div class="right" @mouseover="stage = stage + 1">right</div>
             </div>
           </div>
           <div class="col-lg-8">
