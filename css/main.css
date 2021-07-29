@@ -6218,10 +6218,10 @@ h1 {
     font-weight: 550;
     font-size: 20px;
     margin-bottom: 50px; }
-  .why__fiolet h3 {
-    color: #a866fd; }
-  .why__blue h3 {
-    color: #57b9ff; }
+  .why__second {
+    margin-top: 50px; }
+  .why__third {
+    margin-top: 100px; }
   .why .container {
     max-width: 935px; }
   .why__items {
@@ -6235,8 +6235,11 @@ h1 {
     width: 325px;
     align-items: center;
     justify-content: space-between; }
-    .why__item__title {
-      width: 200px; }
+    .why__item > * {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-direction: column; }
 
 .we {
   position: relative;

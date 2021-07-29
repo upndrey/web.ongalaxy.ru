@@ -227,16 +227,12 @@ h1 {
     margin-bottom: 50px;
   }
 
-  &__fiolet {
-    h3 {
-      color: #a866fd;
-    }
+  &__second {
+    margin-top: 50px;
   }
 
-  &__blue {
-    h3 {
-      color: #57b9ff;
-    }
+  &__third {
+    margin-top: 100px;
   }
 
   .container {
@@ -257,8 +253,11 @@ h1 {
     align-items: center;
     justify-content: space-between;
 
-    &__title {
-      width: 200px;
+    & > * {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-direction: column;
     }
   }
 }
@@ -641,6 +640,7 @@ h1 {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 /* .slide-fade-leave-active до версии 2.1.8 */
+
 .slide-fade-enter,
 .slide-fade-leave-to {
   transform: translateY(20px) scale(0.8);
