@@ -528,6 +528,15 @@ h1 {
     }
   }
 
+  &__arrows {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+    max-width: 100%;
+  }
+
   &__img {
     margin-top: 55px;
   }

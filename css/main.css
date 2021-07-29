@@ -6478,6 +6478,13 @@ h1 {
     .stages__block h3 {
       margin-bottom: 30px;
       font-size: 21px; }
+  .stages__arrows {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+    max-width: 100%; }
   .stages__img {
     margin-top: 55px; }
   .stages__grid {
