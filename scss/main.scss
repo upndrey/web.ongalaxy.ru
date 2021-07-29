@@ -223,16 +223,18 @@ h1 {
 
   h3 {
     font-weight: 550;
-    font-size: 36px;
+    font-size: 24px;
     margin-bottom: 30px;
     line-height: 0;
   }
 
   &__bigNumber {
+    display: block;
     font-family: arial;
     line-height: 0;
     margin-bottom: 20px;
-    font-size: 200px;
+    font-size: 150px;
+    height: 65px;
     color: rgba(168, 102, 253, .54);
   }
 
