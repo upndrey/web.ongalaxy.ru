@@ -86,6 +86,14 @@
     }
   }
 
+  .porfolio {
+    &__duo {
+      & > * {
+        width: 100%;
+      }
+    }
+  }
+
   .slider-bg-1,
   .slider-bg-2 {
     display: none;

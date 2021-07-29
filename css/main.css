@@ -7026,6 +7026,8 @@ h1 {
     display: none; }
   .services__item {
     margin: 0 auto 48px; }
+  .porfolio__duo > * {
+    width: 100%; }
   .slider-bg-1,
   .slider-bg-2 {
     display: none; }
