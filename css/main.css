@@ -6217,8 +6217,7 @@ h1 {
   .why h3 {
     font-weight: 550;
     font-size: 24px;
-    margin-bottom: 30px;
-    line-height: 0; }
+    margin-bottom: 0; }
   .why__bigNumber {
     display: block;
     font-family: arial;
