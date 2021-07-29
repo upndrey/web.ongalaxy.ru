@@ -718,6 +718,7 @@ h1 {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 /* .slide-fade-leave-active до версии 2.1.8 */
+
 .slide-fade-enter,
 .slide-fade-leave-to {
   transform: translateY(20px) scale(0.8);
@@ -730,6 +731,7 @@ h1 {
 
   .container {
     max-width: 1210px;
+    position: relative;
 
     .parallax__satellite {
       position: absolute;
@@ -974,6 +976,8 @@ h1 {
   background-position: -408px;
 
   .container {
+    position: relative;
+
     .parallax__astronaut {
       position: absolute;
       right: 250px;
@@ -1116,6 +1120,8 @@ h1 {
   }
 
   .map {
+    position: relative;
+
     img {
       width: 100%;
     }

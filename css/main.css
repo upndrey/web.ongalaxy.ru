@@ -6613,7 +6613,8 @@ h1 {
 .porfolio {
   padding: 100px 0; }
   .porfolio .container {
-    max-width: 1210px; }
+    max-width: 1210px;
+    position: relative; }
     .porfolio .container .parallax__satellite {
       position: absolute;
       left: -10px;
@@ -6793,10 +6794,12 @@ h1 {
 .team {
   background: radial-gradient(1504.82px at 50% 50%, #2c60e730 0%, rgba(0, 0, 0, 0) 29%);
   background-position: -408px; }
-  .team .container .parallax__astronaut {
-    position: absolute;
-    right: 250px;
-    top: 250px; }
+  .team .container {
+    position: relative; }
+    .team .container .parallax__astronaut {
+      position: absolute;
+      right: 250px;
+      top: 250px; }
   .team__items {
     display: flex;
     flex-wrap: wrap;
@@ -6892,13 +6895,14 @@ h1 {
 .footer__contacts {
   position: absolute; }
 
-.footer .map img {
-  width: 100%; }
-
-.footer .map .parallax__abduction {
-  position: absolute;
-  right: 430px;
-  top: 424px; }
+.footer .map {
+  position: relative; }
+  .footer .map img {
+    width: 100%; }
+  .footer .map .parallax__abduction {
+    position: absolute;
+    right: 430px;
+    top: 424px; }
 
 .input-group {
   margin-bottom: 26px; }
