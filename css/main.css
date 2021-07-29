@@ -6789,7 +6789,7 @@ h1 {
     align-items: center;
     justify-content: center; }
   .ads-logos__item {
-    padding: 20px; }
+    margin: 10px 25px; }
 
 .team {
   background: radial-gradient(1504.82px at 50% 50%, #2c60e730 0%, rgba(0, 0, 0, 0) 29%);
@@ -7077,8 +7077,6 @@ h1 {
   .ads-logos {
     background: radial-gradient(794.82px at 50% 50%, #799efc57 0%, rgba(0, 0, 0, 0) 29%);
     background-position: 0; }
-    .ads-logos__item {
-      width: 33%; }
   .trust .trust__logos__logo {
     width: 30%;
     padding: 10px; }
