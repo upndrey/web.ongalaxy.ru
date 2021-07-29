@@ -6214,11 +6214,11 @@ h1 {
 .why {
   padding-bottom: 500px;
   position: relative;
-  background: src("../img/we/Rectangle.png"); }
+  background: url("../img/why/Rectangle.png"); }
   .why:before {
     content: '';
     display: block;
-    background: src("../img/we/Ellipse.png"); }
+    background: url("../img/why/Ellipse.png"); }
   .why__astronaut {
     position: absolute;
     left: 0;
