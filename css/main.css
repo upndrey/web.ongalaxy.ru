@@ -6898,7 +6898,9 @@ h1 {
 .footer .map {
   position: relative; }
   .footer .map img {
-    width: 100%; }
+    width: 100%;
+    z-index: -1;
+    position: relative; }
   .footer .map .parallax__abduction {
     width: 75px;
     position: absolute;
