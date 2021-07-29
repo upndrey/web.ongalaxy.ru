@@ -6165,11 +6165,11 @@ body {
   display: none; }
 
 .main {
-  position: static;
+  position: relative;
   padding-bottom: 200px;
   padding-top: 190px; }
   .main .container {
-    position: relative;
+    position: static;
     max-width: 935px; }
   .main__subh {
     font-size: 25px;
