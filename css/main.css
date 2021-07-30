@@ -6491,6 +6491,8 @@ h1 {
   padding: 100px 0;
   position: relative;
   background: radial-gradient(1504.82px at 50% 50%, #2c60e730 0%, rgba(0, 0, 0, 0) 29%); }
+  .stages__arrows {
+    display: none !important; }
   .stages .container {
     position: relative;
     z-index: 2; }
@@ -7011,8 +7013,6 @@ h1 {
 @media (max-width: 991.98px) {
   .header .g-btn {
     display: none !important; }
-  .stages__arrows {
-    display: none !important; }
   .top {
     display: none; }
   .top-bg {
@@ -7033,6 +7033,8 @@ h1 {
     display: inline-block !important; } }
 
 @media (max-width: 767.98px) {
+  .stages__arrows {
+    display: flex !important; }
   .header__btn {
     margin: 0; }
   .main-cosmonaut {

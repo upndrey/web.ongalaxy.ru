@@ -541,6 +541,10 @@ h1 {
   position: relative;
   background: radial-gradient(1504.82px at 50% 50%, #2c60e730 0%, rgba(0, 0, 0, 0) 29%);
 
+  &__arrows {
+    display: none !important;
+  }
+
   .container {
     position: relative;
     z-index: 2;
@@ -718,6 +722,7 @@ h1 {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 /* .slide-fade-leave-active до версии 2.1.8 */
+
 .slide-fade-enter,
 .slide-fade-leave-to {
   transform: translateY(20px) scale(0.8);

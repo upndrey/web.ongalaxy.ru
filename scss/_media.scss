@@ -7,10 +7,6 @@
     display: none !important;
   }
 
-  .stages__arrows {
-    display: none !important;
-  }
-
   .top {
     display: none;
   }
@@ -53,6 +49,10 @@
 @include media-breakpoint-down(sm) {
   .header__phone {
     //display: none;
+  }
+
+  .stages__arrows {
+    display: flex !important;
   }
 
   .header__btn {
