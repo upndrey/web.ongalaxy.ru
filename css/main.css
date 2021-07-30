@@ -6792,6 +6792,20 @@ h1 {
     justify-content: center; }
   .ads-logos__item {
     margin: 10px 45px; }
+  .ads-logos__item1 {
+    width: 75px; }
+  .ads-logos__item2 {
+    width: 75px; }
+  .ads-logos__item3 {
+    width: 275px; }
+  .ads-logos__item4 {
+    width: 225px; }
+  .ads-logos__item5 {
+    width: 75px; }
+  .ads-logos__item6 {
+    width: 175px; }
+  .ads-logos__item7 {
+    width: 318px; }
 
 .team {
   background: radial-gradient(1504.82px at 50% 50%, #2c60e730 0%, rgba(0, 0, 0, 0) 29%);
@@ -7087,6 +7101,20 @@ h1 {
     background-position: 0; }
     .ads-logos__item {
       margin: 10px 25px; }
+    .ads-logos__item1 {
+      width: 50px; }
+    .ads-logos__item2 {
+      width: 50px; }
+    .ads-logos__item3 {
+      width: 200px; }
+    .ads-logos__item4 {
+      width: 175px; }
+    .ads-logos__item5 {
+      width: 50px; }
+    .ads-logos__item6 {
+      width: 125px; }
+    .ads-logos__item7 {
+      width: 250px; }
   .trust .trust__logos__logo {
     width: 30%;
     padding: 10px; }

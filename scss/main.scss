@@ -722,7 +722,6 @@ h1 {
   transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 /* .slide-fade-leave-active до версии 2.1.8 */
-
 .slide-fade-enter,
 .slide-fade-leave-to {
   transform: translateY(20px) scale(0.8);
@@ -971,6 +970,34 @@ h1 {
 
   &__item {
     margin: 10px 45px;
+  }
+
+  &__item1 {
+    width: 75px;
+  }
+
+  &__item2 {
+    width: 75px;
+  }
+
+  &__item3 {
+    width: 275px;
+  }
+
+  &__item4 {
+    width: 225px;
+  }
+
+  &__item5 {
+    width: 75px;
+  }
+
+  &__item6 {
+    width: 175px;
+  }
+
+  &__item7 {
+    width: 318px;
   }
 }
 //team
