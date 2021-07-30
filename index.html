@@ -923,24 +923,6 @@
       <div class="container">
         <h2>Рассчитать стоимость сайта</h2>
         <div data-marquiz-id="6103ee9b70f3c1003f678c29"></div>
-        <script type="application/javascript">
-          (function(t, p) {
-            window.Marquiz ? Marquiz.add([t, p]) : document.addEventListener('marquizLoaded', function() {
-              Marquiz.add([t, p])
-            })
-          })('Inline', {
-            id: '6103ee9b70f3c1003f678c29',
-            buttonText: 'Пройти тест',
-            bgColor: '#d3f4ff',
-            textColor: '#363636',
-            rounded: true,
-            shadow: 'rgba(211, 244, 255, 0.5)',
-            blicked: true,
-            buttonOnMobile: true,
-            width: '830',
-            height: '490'
-          })
-        </script>
       </div>
     </section>
 
@@ -1071,44 +1053,60 @@
     };
     let savedScroll = window.pageYOffset;
     document.addEventListener("scroll", function() {
-      let ufoPos = ufoDom.getBoundingClientRect().top;
-      let satellitePos = satelliteDom.getBoundingClientRect().top;
-      let astronautPos = astronautDom.getBoundingClientRect().top;
-      if (ufoPos < document.documentElement.clientHeight && ufoPos > 0) {
-        if (window.pageYOffset > savedScroll) {
-          ufoCurrent.top -= 1;
-          ufoCurrent.right += 1;
-        } else {
-          ufoCurrent.top += 1;
-          ufoCurrent.right -= 1;
+        let ufoPos = ufoDom.getBoundingClientRect().top;
+        let satellitePos = satelliteDom.getBoundingClientRect().top;
+        let astronautPos = astronautDom.getBoundingClientRect().top;
+        if (ufoPos < document.documentElement.clientHeight && ufoPos > 0) {
+          if (window.pageYOffset > savedScroll) {
+            ufoCurrent.top -= 1;
+            ufoCurrent.right += 1;
+          } else {
+            ufoCurrent.top += 1;
+            ufoCurrent.right -= 1;
+          }
+          ufoDom.style.top = ufoCurrent.top + "px";
+          ufoDom.style.right = ufoCurrent.right + "px";
         }
-        ufoDom.style.top = ufoCurrent.top + "px";
-        ufoDom.style.right = ufoCurrent.right + "px";
-      }
-      if (satellitePos < document.documentElement.clientHeight && satellitePos > 0) {
-        if (window.pageYOffset > savedScroll) {
-          satelliteCurrent.top -= 1.25;
-          satelliteCurrent.left += 0.75;
-        } else {
-          satelliteCurrent.top += 1;
-          satelliteCurrent.left -= 1;
+        if (satellitePos < document.documentElement.clientHeight && satellitePos > 0) {
+          if (window.pageYOffset > savedScroll) {
+            satelliteCurrent.top -= 1.25;
+            satelliteCurrent.left += 0.75;
+          } else {
+            satelliteCurrent.top += 1;
+            satelliteCurrent.left -= 1;
+          }
+          satelliteDom.style.top = satelliteCurrent.top + "px";
+          satelliteDom.style.left = satelliteCurrent.left + "px";
         }
-        satelliteDom.style.top = satelliteCurrent.top + "px";
-        satelliteDom.style.left = satelliteCurrent.left + "px";
-      }
-      if (astronautPos < document.documentElement.clientHeight && astronautPos > 0) {
-        if (window.pageYOffset > savedScroll) {
-          astronautCurrent.top -= 1;
-          astronautCurrent.right -= 1;
-        } else {
-          astronautCurrent.top += 1;
-          astronautCurrent.right += 1;
+        if (astronautPos < document.documentElement.clientHeight && astronautPos > 0) {
+          if (window.pageYOffset > savedScroll) {
+            astronautCurrent.top -= 1;
+            astronautCurrent.right -= 1;
+          } else {
+            astronautCurrent.top += 1;
+            astronautCurrent.right += 1;
+          }
+          astronautDom.style.top = astronautCurrent.top + "px";
+          astronautDom.style.right = astronautCurrent.right + "px";
         }
-        astronautDom.style.top = astronautCurrent.top + "px";
-        astronautDom.style.right = astronautCurrent.right + "px";
-      }
-      savedScroll = window.pageYOffset;
-    })
+        savedScroll = window.pageYOffset;
+      })
+      (function(t, p) {
+        window.Marquiz ? Marquiz.add([t, p]) : document.addEventListener('marquizLoaded', function() {
+          Marquiz.add([t, p])
+        })
+      })('Inline', {
+        id: '6103ee9b70f3c1003f678c29',
+        buttonText: 'Пройти тест',
+        bgColor: '#d3f4ff',
+        textColor: '#363636',
+        rounded: true,
+        shadow: 'rgba(211, 244, 255, 0.5)',
+        blicked: true,
+        buttonOnMobile: true,
+        width: '830',
+        height: '490'
+      })
   </script>
   <!-- <img src="./img/top.svg" alt="" class="top"> -->
 </body>
