@@ -7009,6 +7009,8 @@ h1 {
 
 /*==========  Desktop First  ==========*/
 @media (max-width: 991.98px) {
+  .header .g-btn {
+    display: none !important; }
   .top {
     display: none; }
   .top-bg {

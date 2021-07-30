@@ -3,6 +3,10 @@
 @include media-breakpoint-down(lg) {}
 // ≥992px
 @include media-breakpoint-down(md) {
+  .header .g-btn {
+    display: none !important;
+  }
+
   .top {
     display: none;
   }
