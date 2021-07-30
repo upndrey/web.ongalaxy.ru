@@ -7155,7 +7155,7 @@ h1 {
     width: 125px;
     font-size: 14px; }
   .why {
-    background-position: -1000px 0; }
+    background: none; }
     .why:before {
       bottom: -1379px; }
     .why__astronaut {
