@@ -51,6 +51,10 @@
     //display: none;
   }
 
+  .marquiz__container {
+    width: 500px;
+  }
+
   .stages__arrows {
     display: flex !important;
   }
@@ -235,6 +239,10 @@
   h1 {
     font-size: 29px;
     line-height: 41px;
+  }
+
+  .marquiz__container {
+    width: 100%;
   }
 
   .main__subh {

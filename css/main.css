@@ -7050,6 +7050,8 @@ h1 {
     display: inline-block !important; } }
 
 @media (max-width: 767.98px) {
+  .marquiz__container {
+    width: 500px; }
   .stages__arrows {
     display: flex !important; }
   .header__btn {
@@ -7152,6 +7154,8 @@ h1 {
   h1 {
     font-size: 29px;
     line-height: 41px; }
+  .marquiz__container {
+    width: 100%; }
   .main__subh {
     margin-bottom: 30px; }
   .stage-item__title {
