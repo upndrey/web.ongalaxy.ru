@@ -63,6 +63,30 @@
     });
   </script>
   <!-- Marquiz script end -->
+  <!-- Marquiz script start -->
+  <script>
+    (function(w, d, s, o) {
+      var j = d.createElement(s);
+      j.async = true;
+      j.src = '//script.marquiz.ru/v2.js';
+      j.onload = function() {
+        if (document.readyState !== 'loading') Marquiz.init(o);
+        else document.addEventListener("DOMContentLoaded", function() {
+          Marquiz.init(o);
+        });
+      };
+      d.head.insertBefore(j, d.head.firstElementChild);
+    })(window, document, 'script', {
+      host: '//quiz.marquiz.ru',
+      region: 'eu',
+      id: '6103ee9b70f3c1003f678c29',
+      autoOpen: false,
+      autoOpenFreq: 'once',
+      openOnExit: false,
+      disableOnMobile: false
+    });
+  </script>
+  <!-- Marquiz script end -->
   <script>
     ! function(f, b, e, v, n, t, s) {
       if (f.fbq) return;
@@ -894,29 +918,32 @@
       </div>
     </section>
 
-    <!--
-    <section class="we-can">
+
+    <section class="price-calculator">
       <div class="container">
-        <h2>Мы умеем многое</h2>
-        <div class="row">
-          <div class="col-md-4 we-can__left">
-            <p>
-              Веб-студия GALAXY была основана в 2014 году командой амбициозных специалистов.
-              <br>
-              <br>
-              На протяжении четырех лет мы сотрудничаем как с частными заказчиками, так и с государственными, а
-              всего за это время
-              было успешно разработано более 250 проектов.
-            </p>
-          </div>
-          <div class="col-ms-8 we-can__right">
-            <img src="./img/we-can.svg" alt="" class="img-fluid">
-            <img src="./img/grid.svg" alt="" class="grid img-fluid">
-          </div>
-        </div>
+        <h2>Рассчитать стоимость сайта</h2>
+        <div data-marquiz-id="6103ee9b70f3c1003f678c29"></div>
+        <script>
+          (function(t, p) {
+            window.Marquiz ? Marquiz.add([t, p]) : document.addEventListener('marquizLoaded', function() {
+              Marquiz.add([t, p])
+            })
+          })('Inline', {
+            id: '6103ee9b70f3c1003f678c29',
+            buttonText: 'Пройти тест',
+            bgColor: '#d3f4ff',
+            textColor: '#363636',
+            rounded: true,
+            shadow: 'rgba(211, 244, 255, 0.5)',
+            blicked: true,
+            buttonOnMobile: true,
+            width: '830',
+            height: '490'
+          })
+        </script>
       </div>
     </section>
-  -->
+
 
     <footer class="footer">
       <div class="container">
