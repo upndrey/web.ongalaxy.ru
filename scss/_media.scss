@@ -204,6 +204,13 @@
   .main__subh {
     margin-bottom: 30px;
   }
+
+  .stage-item {
+    &__title {
+      width: 125px;
+      font-size: 14px;
+    }
+  }
 }
 /*==========  Mobile First  ==========*/
 // ≤576px

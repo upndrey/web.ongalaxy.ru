@@ -7116,7 +7116,10 @@ h1 {
     font-size: 29px;
     line-height: 41px; }
   .main__subh {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .stage-item__title {
+    width: 125px;
+    font-size: 14px; } }
 
 /*==========  Mobile First  ==========*/
 @media (min-width: 576px) {
